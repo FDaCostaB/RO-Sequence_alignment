@@ -1,17 +1,17 @@
-Commande pour executer le projet sur un shell UNIX à partir 
-du repertoire contenant les fichiers Partie3.py et Partie4.py :
+#Sequence Alignment (04/2021)
 
-Installation python :
-sudo apt install python3
+An program to find the best alignement of 2 nucleotids sequence according to a table of score called 'Delta' described in a file.
 
-Installation librairie necessaire :
-sudo apt install python3-pip
-pip3 install matplotlib
+Libraries needed : matplotlib
 
-Executer la partie 3 :
-python3 Partie3.py <Delta> <GeneX> <GeneY>
-python3 Partie3.py delta.txt ATGCC TACGCA
+LINUX: 'sudo apt-get python3' 'sudo apt-get python3-<lib>'
 
-Executer la partie 4 :
-python3 Partie3.py <Delta> <Nb de gene à muter>
-python3 Partie4.py deltaNbMut.txt 10000
+Go to source folder 'python3 main.py' to run the application.
+
+Windows: Install pip 'pip install <lib>'
+
+With a working installation of python and the libraries indicated installed, double click on main.py to run the application.
+
+Command to run the program from the root folder of the project : 
+python3 Partie3.py <Delta> <GeneX> <GeneY>        Ex : python3 Partie3.py delta.txt ATGCC TACGCA
+python3 Partie4.py <Delta> <Nb de gene à muter>   Ex : python3 Partie4.py deltaNbMut.txt 10000
