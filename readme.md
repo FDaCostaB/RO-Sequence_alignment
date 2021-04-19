@@ -1,4 +1,4 @@
-#Sequence Alignment (04/2021)
+# Sequence Alignment (04/2021)
 
 An program to find the best alignement of 2 nucleotids sequence according to a table of score called 'Delta' described in a file.
 
