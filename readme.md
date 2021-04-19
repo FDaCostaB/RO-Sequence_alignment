@@ -4,11 +4,11 @@ An program to find the best alignement of 2 nucleotids sequence according to a t
 
 Libraries needed : matplotlib
 
-LINUX: 'sudo apt-get python3' 'sudo apt-get python3-<lib>'
+LINUX: 'sudo apt-get python3' 'sudo apt-get python3-lib'
 
 Go to source folder 'python3 main.py' to run the application.
 
-Windows: Install pip 'pip install <lib>'
+Windows: Install pip 'pip install lib'
 
 With a working installation of python and the libraries indicated installed, double click on main.py to run the application.
 
